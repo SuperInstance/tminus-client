@@ -1,0 +1,20 @@
+{
+  "name": "tminus-client",
+  "version": "1.0.0",
+  "description": "T-Minus Client SDK — Node.js client for the t-minus cue dispatcher",
+  "main": "src/client.js",
+  "bin": {
+    "tminus-cli": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node tests/simulate.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
