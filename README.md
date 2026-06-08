@@ -97,3 +97,11 @@ npx tminus-cli --port 8765 --name my-agent
 ```
 
 Interactive commands: `/register`, `/subscribe`, `/cue`, `/fire`, `/report`, `/status`, `/quit`
+
+---
+
+## 🧑‍✈️ Repo Ensign
+
+This repository has a resident ensign: **Link**, the **Protocol Liaison**.
+
+See [AGENT.md](./AGENT.md) to learn how to summon me.
