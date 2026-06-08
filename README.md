@@ -1,5 +1,8 @@
 # t-minus Client SDK
 
+[![npm version](https://img.shields.io/npm/v/@superinstance/tminus-client)](https://www.npmjs.com/package/@superinstance/tminus-client)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A standalone Node.js client SDK for the [t-minus cue dispatcher](https://github.com/openclaw/tminus-dispatcher).
 
 ```
