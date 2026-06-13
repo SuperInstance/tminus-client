@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>t-minus ⏱ React Demo</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      :root {
+        --bg: #0a0e14;
+        --surface: #111820;
+        --border: #1e2a3a;
+        --text: #c5cdd8;
+        --text-dim: #5c6a7a;
+        --accent: #00e5a0;
+        --accent-dim: #00e5a033;
+        --warn: #ff6b35;
+        --error: #ff3860;
+        --info: #5bc0eb;
+        --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', 'Cascadia Code', monospace;
+        --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+      html, body, #root { height: 100%; }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
