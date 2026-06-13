@@ -6,7 +6,7 @@
 A standalone Node.js client SDK for the [t-minus cue dispatcher](https://github.com/openclaw/tminus-dispatcher).
 
 ```
-npm install tminus-client
+npm install @superinstance/tminus-client
 ```
 
 ## Quick Start
